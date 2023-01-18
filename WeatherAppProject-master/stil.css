@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: .1em .1em 0 rgba(0,0,0,0.3);
+    background: linear-gradient(-45deg, #6fb2d1, #b4e3f5, #23a6d5, #5479f1);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+input[type="text"]{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 6px 4px mintcream;
+    outline: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: darkgoldenrod;
+}
+
+input[type="submit"]{
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color:darkgoldenrod;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family:'Times New Roman', Times, serif;
+    box-shadow: 0 0 6px 4px mintcream;
+}
+
+.content-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    background: white;
+    min-width: 600px;
+    min-height: 350px;
+    border-radius: 7px;
+    line-height: 1.5;
+    box-shadow: 0 0 6px 4px mintcream;
+    padding: 20px;
+}
+
+.icon-weather{
+    display: flex;
+    justify-content: center;
+    line-height: 3.5;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: navy;
+    font-size: 25px;
+}
+
+.temp{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: navy;
+    font-size: 60px;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+    padding: 20px;
+}
+
+.guess{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    white-space: wrap;
+    margin-top: 15px;
+}
+
+.guess-bottom{
+    display: flex;
+    
+}
+
+.day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+h1{
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+
+.weather-top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    max-height: 200px;
+    max-width: 400px;
+    margin-left: 30px;
+    min-height: 190px;
+}
+
+.day>p{
+    color: navy;
+    font-size: 25px;
+}
+
+.column>hr{
+    display: flex;
+    width: 510px;
+    margin-bottom: 10px;
+}
+

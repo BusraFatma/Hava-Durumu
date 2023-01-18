@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="content-top">
+
+            <input class="inputValue" type="text" placeholder="Bir il giriniz...">
+            <input class="button" type="submit" value="Ara">
+
+        </div>
+
+        <div class="content-bottom">
+
+            <div class="weather">
+                <div class="weather-top">
+                    <div class="icon-weather" id="icon">
+                    </div>
+
+                    <div class="description">
+                        <p class="temp"></p>
+                        <p class="desc"></p>
+                    </div>
+                </div>
+
+
+                <div class="guess" id="bottom">
+
+                    <div class="column">
+                        <hr>
+                    </div>
+                    <div class="guess-bottom">
+                        <div class="day">
+                            <h1>Pazartesi</h1>
+                            <!-- <img src="weather_images/sun.png"> -->
+                            <div class="icond" id="icond"></div>
+                            <p class="temp_value"></p>
+                        
+                            <!-- <p class="desc_value"></p> -->
+                            <!-- guesbottom.children(i).childeren(2).innerTEXT = ' <p class="temp_value"> dizi</p>' -->
+                        </div>
+                        <div class="day">
+                            <h1>Salı</h1>
+                            <div class="icond" id="icond"></div>
+                            <p class="temp_value"></p>
+                            <!-- <p class="desc_value"></p> -->
+                        </div>
+                        <div class="day">
+                            <h1>Çarşamba</h1>
+                            <div class="icond" id="icond"></div>
+                            <p class="temp_value"></p>
+                            <!-- <p class="desc_value"></p> -->
+                        </div>
+                        <div class="day">
+                            <h1>Perşembe</h1>
+                            <div class="icond" id="icond"></div>
+                            <p class="temp_value"></p>
+                            <!-- <p class="desc_value"></p> -->
+                        </div>
+                        <div class="day">
+                            <h1>Cuma</h1>
+                            <div class="icond" id="icond"></div>
+                            <p class="temp_value"></p>
+                            <!-- <p class="desc_value"></p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
